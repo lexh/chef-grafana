@@ -9,6 +9,7 @@ version '2.0.0'
 supports 'ubuntu', '>= 12.04'
 supports 'debian', '>= 7.0'
 supports 'centos', '>= 6.4'
+supports 'amazon'
 
 recipe 'grafana::default', 'Installs and configures Grafana with a web server proxy'
 
