@@ -43,7 +43,8 @@ template '/etc/default/grafana-server' do
     grafana_user: node['grafana']['user'],
     grafana_group: node['grafana']['group'],
     grafana_home: node['grafana']['home'],
-    log_dir: node['grafana']['log_dir']
+    log_dir: node['grafana']['log_dir'],
+    data_dir: node['grafana']['data_dir']
   )
   owner 'root'
   group 'root'
